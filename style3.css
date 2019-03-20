@@ -22,7 +22,7 @@ body{
     top: 100px;
     left: 350px;
     width: 792px;
-    height: 830px;
+    height: 630px;
     position: absolute;
     border-radius: 1px;
 }
@@ -44,7 +44,7 @@ body{
     top: 235px;
     left: 10px;
     width: 330px;
-    height: 700px;
+    height: 500px;
     position: absolute;
     border-radius: 1px;
     opacity: 0.6;
@@ -56,7 +56,7 @@ body{
     top: 5px;
     left: 1160px;
     width: 360px;
-    height: 930px;
+    height: 730px;
     position: absolute;
     border-radius: 1px;
     opacity: 0.6;
@@ -88,9 +88,11 @@ img{
     cursor: pointer;  
 }
 
+
+
 p{
     text-align: center;
-    top: 600px;
+    top: 300px;
     position: absolute;
     left: 10px;
     font-family: 'Josefin Sans', sans-serif;
@@ -99,12 +101,13 @@ p{
 
 h3{
     text-align: center;
-    top: 300px;
+    top: 260px;
     position: absolute;
     left: 370px;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 35px;
     }
+
 
 h1{
     text-align: center;
@@ -220,17 +223,5 @@ font-family: 'Caveat Brush', cursive;
         transition: all 0.3s ease-out;
 }
 
-.minislide {width:450px; height:400px; overflow:hidden; position:relative; }
-.minislide img{ position:absolute; animation:minislide 20s infinite; opacity:0; width: 100%; height: auto;}
 
-@keyframes minislide {25%{opacity:1;} 40%{opacity:0;}} 
-.minislide img:nth-child(4){animation-delay:0s;}
-.minislide img:nth-child(3){animation-delay:7s;}
-.minislide img:nth-child(2){animation-delay:12s;}
-.minislide img:nth-child(1){animation-delay:17s;}
 
-.minislide{
-	top: 380px;
-    position: absolute;
-    left: 500px;
-}
