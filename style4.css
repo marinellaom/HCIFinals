@@ -25,7 +25,17 @@ body{
     border-radius: 1px;
 }
 
-
+.info{
+    background-image: url("info.png");
+    border: 0px solid  #FFEBCD;
+    top: 300px;
+    left: 30px;
+    width: 280px;
+    height: 171px;
+    position: absolute;
+    border-radius: 1px;
+    z-index: +1;
+}
 .leftbox{
     background-color: white;
     border: 0px solid  #FFEBCD;
@@ -84,6 +94,27 @@ img{
     position: absolute;
     cursor: pointer;  
 }
+
+
+.name{top: 420px;
+    position: absolute;
+    left: 430px;
+    font-size: 20px}
+.email{top: 420px;
+    position: absolute;
+    left: 750px;
+    font-size: 20px}
+.textbox{top: 460px;
+    position: absolute;
+    left: 430px;
+    font-size: 20px;
+    }
+.sub{top: 680px;
+    position: absolute;
+    left: 980px;
+    font-size: 20px}
+
+
 p{
     text-align: center;
     top: 300px;
