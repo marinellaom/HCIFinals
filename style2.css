@@ -2,7 +2,7 @@ html, body{
 }
 
 body{
-    background-image: url("bg1.jpg");
+    background-image: url("11.jpg");
     background-size: cover; 
 }
 
@@ -22,7 +22,7 @@ body{
     top: 100px;
     left: 350px;
     width: 792px;
-    height: 930px;
+    height: 830px;
     position: absolute;
     border-radius: 1px;
 }
@@ -44,7 +44,7 @@ body{
     top: 235px;
     left: 10px;
     width: 330px;
-    height: 800px;
+    height: 700px;
     position: absolute;
     border-radius: 1px;
     opacity: 0.6;
@@ -56,11 +56,27 @@ body{
     top: 5px;
     left: 1160px;
     width: 360px;
-    height: 1030px;
+    height: 930px;
     position: absolute;
     border-radius: 1px;
     opacity: 0.6;
 }
+
+.aboutme{
+    background-color: white;
+    border: 2px solid  #FFEBCD;
+    top: 285px;
+    left: 25px;
+    width: 300px;
+    height: 250px;
+    position: absolute;
+    border-radius: 1px;
+    opacity: 0.8;
+}
+
+
+
+
 img{
     border: 0px solid  #FFEBCD;
     top: 20px;
@@ -83,6 +99,19 @@ img{
     position: absolute;
     left: 780px;
 }
+
+.vid3{
+    top: 720px;
+   position: absolute;
+   left: 380px;
+}
+
+.vid4{
+    top: 720px;
+   position: absolute;
+   left: 780px;
+}
+
 
 .text{
     width: 300px;
@@ -135,6 +164,24 @@ h3{
     font-family: 'Josefin Sans', sans-serif;
     font-size: 25px;
     }
+
+.tips3{
+   text-align: center;
+   top: 680px;
+   position: absolute;
+   left: 400px;
+   font-family: 'Josefin Sans', sans-serif;
+   font-size: 25px;
+   }
+
+.tips4{
+   text-align: center;
+   top: 680px;
+   position: absolute;
+   left: 780px;
+   font-family: 'Josefin Sans', sans-serif;
+   font-size: 25px;
+   }
 
 h1{
     text-align: center;

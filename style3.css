@@ -2,7 +2,7 @@ html, body{
 }
 
 body{
-    background-image: url("bg1.jpg");
+    background-image: url("11.jpg");
     background-size: cover; 
 }
 
@@ -87,6 +87,7 @@ img{
     position: absolute;
     cursor: pointer;  
 }
+
 
 
 

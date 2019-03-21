@@ -2,7 +2,7 @@ html, body{
 }
 
 body{
-    background-image: url("bg1.jpg");
+    background-image: url("11.jpg");
     background-size: cover; 
 }
 
@@ -26,6 +26,18 @@ body{
     position: absolute;
     border-radius: 1px;
 }
+
+.textdrop{
+    background-color: white;
+    border: 0px solid  #FFEBCD;
+    top: 120px;
+    left: 400px;
+    width: 692px;
+    height: 330px;
+    position: absolute;
+    border-radius: 1px;
+}
+
 
 .leftbox{
     background-color: white;
@@ -89,12 +101,13 @@ img{
 }
 
 p{
-    text-align: center;
+    text-align: justify;
     top: 600px;
     position: absolute;
     left: 10px;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 20px;
+    text-indent: 40px;
     }
 
 h3{
