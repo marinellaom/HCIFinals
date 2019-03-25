@@ -62,18 +62,109 @@ body{
     opacity: 0.6;
 }
 
-.aboutme{
+.whatsbest{
     background-color: white;
-    border: 2px solid  #FFEBCD;
+    border: 0px solid  #FFEBCD;
     top: 285px;
     left: 25px;
     width: 300px;
-    height: 250px;
+    height: 350px;
     position: absolute;
-    border-radius: 1px;
-    opacity: 0.8;
+    border-radius: 5px;
+    opacity: ;
 }
 
+.reco{
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+    top: 300px;
+    left: 40px;
+    position: absolute;
+    font-weight: bold;
+}
+
+.hovertext{
+    font-family: 'Dosis', sans-serif;
+    font-size: 12px;
+    top: 325px;
+    left: 60px;
+    position: absolute;
+    font-weight: bold;
+    color: gray;
+}
+
+
+.shop{
+    font-family: 'Dosis', sans-serif;
+    font-size: 18px;
+    top: 350px;
+    left: 40px;
+    position: absolute;
+    font-weight: bold;
+}
+
+.pad{
+    font-family: 'Dosis', sans-serif;
+    font-size: 18px;
+    top: 380px;
+    left: 40px;
+    position: absolute;
+    font-weight: bold;
+}
+
+.wc{
+    font-family: 'Dosis', sans-serif;
+    font-size: 18px;
+    top: 410px;
+    left: 40px;
+    position: absolute;
+    font-weight: bold;
+}
+
+.lineart{
+    font-family: 'Dosis', sans-serif;
+    font-size: 18px;
+    top: 440px;
+    left: 40px;
+    position: absolute;
+    font-weight: bold;
+}
+
+.callig{
+    font-family: 'Dosis', sans-serif;
+    font-size: 18px;
+    top: 470px;
+    left: 40px;
+    position: absolute;
+    font-weight: bold;
+}
+
+.wcpaper{
+    font-family: 'Dosis', sans-serif;
+    font-size: 18px;
+    top: 500px;
+    left: 40px;
+    position: absolute;
+    font-weight: bold;
+}
+
+.pen{
+    font-family: 'Dosis', sans-serif;
+    font-size: 18px;
+    top: 530px;
+    left: 40px;
+    position: absolute;
+    font-weight: bold;
+}
+
+.cpen{
+    font-family: 'Dosis', sans-serif;
+    font-size: 18px;
+    top: 560px;
+    left: 40px;
+    position: absolute;
+    font-weight: bold;
+}
 
 
 
