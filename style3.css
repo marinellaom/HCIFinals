@@ -17,12 +17,13 @@ body{
     border-radius: 1px;
 }
 .boxdrop{
-    background-color: white;
+    background-image: url("whitebrick.jpg");
+    background-size: cover; 
     border: 2px solid  #FFEBCD;
     top: 100px;
     left: 350px;
     width: 792px;
-    height: 630px;
+    height: 930px;
     position: absolute;
     border-radius: 1px;
 }
@@ -44,7 +45,7 @@ body{
     top: 235px;
     left: 10px;
     width: 330px;
-    height: 500px;
+    height: 800px;
     position: absolute;
     border-radius: 1px;
     opacity: 0.6;
@@ -56,7 +57,7 @@ body{
     top: 5px;
     left: 1160px;
     width: 360px;
-    height: 730px;
+    height: 1030px;
     position: absolute;
     border-radius: 1px;
     opacity: 0.6;
@@ -67,6 +68,78 @@ img{
     left: 25px;
     width: 100px;
     height: 100px;
+    position: absolute;
+    border-radius: 1px;
+}
+
+.pic1{
+    background-image: url("a1.jpg");
+    background-size: cover;
+    border: 3px solid black;
+    top: 380px;
+    left: 380px;
+    width: 230px;
+    height: 230px;
+    position: absolute;
+    border-radius: 1px;
+}
+
+.pic2{
+    background-image: url("a2.jpg");
+    background-size: cover;
+    border: 3px solid black;
+    top: 380px;
+    left: 630px;
+    width: 230px;
+    height: 230px;
+    position: absolute;
+    border-radius: 1px;
+}
+
+.pic3{
+    background-image: url("a3.jpg");
+    background-size: cover;
+    border: 3px solid black;
+    top: 380px;
+    left: 880px;
+    width: 230px;
+    height: 230px;
+    position: absolute;
+    border-radius: 1px;
+}
+
+.pic4{
+    background-image: url("a4.jpg");
+    background-size: cover;
+    border: 3px solid black;
+    top: 630px;
+    left: 380px;
+    width: 230px;
+    height: 230px;
+    position: absolute;
+    border-radius: 1px;
+}
+
+.pic5{
+    background-image: url("a5.jpg");
+    background-size: cover;
+    border: 3px solid black;
+    top: 630px;
+    left: 630px;
+    width: 230px;
+    height: 230px;
+    position: absolute;
+    border-radius: 1px;
+}
+
+.pic6{
+    background-image: url("a6.jpg");
+    background-size: cover;
+    border: 3px solid black;
+    top: 630px;
+    left: 880px;
+    width: 230px;
+    height: 230px;
     position: absolute;
     border-radius: 1px;
 }
@@ -104,7 +177,7 @@ h3{
     text-align: center;
     top: 260px;
     position: absolute;
-    left: 370px;
+    left: 660px;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 35px;
     }
@@ -223,6 +296,7 @@ font-family: 'Caveat Brush', cursive;
     -webkit-transition: all 0.3s ease-out;
         transition: all 0.3s ease-out;
 }
+
 
 
 
