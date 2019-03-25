@@ -389,4 +389,44 @@ h2{
 }
 
 
+.shop:hover{
+  cursor: pointer;
+  color: #FF9933;
+}
+
+.pad:hover{
+  cursor: pointer;
+  color: #FF9933;
+}
+
+.pen:hover{
+  cursor: pointer;
+  color: #FF9933;
+}
+
+.wc:hover{
+  cursor: pointer;
+  color: #FF9933;
+}
+
+.lineart:hover{
+  cursor: pointer;
+  color: #FF9933;
+}
+
+.callig:hover{
+  cursor: pointer;
+  color: #FF9933;
+}
+
+.wcpaper:hover{
+  cursor: pointer;
+  color: #FF9933;
+}
+
+.cpen:hover{
+  cursor: pointer;
+  color: #FF9933;
+}
+
 
