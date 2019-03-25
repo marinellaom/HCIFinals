@@ -237,6 +237,13 @@ h3{
     font-family: 'Josefin Sans', sans-serif;
     font-size: 35px;
     }
+    
+h6{ top: 80px;
+    position: absolute;
+    color: gray;
+    left: 130px;
+    font-family: Calibri;
+    }
 
 .tips{
     text-align: center;

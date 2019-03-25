@@ -73,6 +73,74 @@ body{
     border-radius: 1px;
     opacity: 0.6;
 }
+
+
+.aboutme{
+    background-color: white;
+    border: 0px solid  #FFEBCD;
+    top: 80px;
+    left: 1180px;
+    width: 325px;
+    height: 250px;
+    position: absolute;
+    border-radius: 5px;
+    opacity: ;
+}
+
+.proficon{
+    background-image: url("profile.png");
+    background-size: cover;
+    border: 0px solid  #FFEBCD;
+    top: 40px;
+    left: 1290px;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    border-radius: px;
+    opacity: ;
+}
+
+.aboutart{
+    background-color: white;
+    border: 0px solid  #FFEBCD;
+    top: 350px;
+    left: 1180px;
+    width: 325px;
+    height: 320px;
+    position: absolute;
+    border-radius: 5px;
+    opacity: ;
+}
+
+.artinfo{
+    font-family: 'Dosis', sans-serif;
+    font-size: 15px;
+    top: 380px;
+    left: 1200px;
+    width: 280px;
+    height: 350px;
+    position: absolute;
+    text-align: justify;
+    text-indent: 40px;
+}
+
+.selfinfo{
+    background-color: ;
+    border: 0px solid  #FFEBCD;
+    top: 150px;
+    left: 1200px;
+    width: 280px;
+    height: 350px;
+    position: absolute;
+    border-radius: 5px;
+    opacity: ;
+    font-family: 'Dosis', sans-serif;
+    font-size: 15px;
+    text-align: justify;
+    text-indent: 20px;
+}
+
+
 img{
     border: 0px solid  #FFEBCD;
     top: 20px;
@@ -84,6 +152,34 @@ img{
 }
 
 
+.vidinfobox{
+    background-color: white;
+    border: 0px solid  #FFEBCD;
+    top: 265px;
+    left: 25px;
+    width: 300px;
+    height: 280px;
+    position: absolute;
+    border-radius: 5px;
+    opacity: ;
+}
+
+.artvid{
+  top: 320px;
+    position: absolute;
+    left: 40px;
+    border-radius: 5px;
+}
+
+.vidinfo{
+    top: 280px;
+    position: absolute;
+    left: 60px;
+    height: 50px;
+    width: 290px;
+    font-size: 20px;
+    font-family: 'Dosis', sans-serif;
+}
 .text{
     width: 300px;
     padding: 30px;
@@ -112,10 +208,10 @@ p{
 
 h3{
     text-align: center;
-    top: 300px;
+    top: 280px;
     position: absolute;
-    left: 370px;
-    font-family: 'Josefin Sans', sans-serif;
+    left: 400px;
+     font-family: 'Josefin Sans', sans-serif;
     font-size: 35px;
     }
 
@@ -127,6 +223,13 @@ h1{
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 500;
     font-size: 45px;
+    }
+
+h6{ top: 80px;
+    position: absolute;
+    color: gray;
+    left: 130px;
+    font-family: Calibri;
     }
 
 h2{

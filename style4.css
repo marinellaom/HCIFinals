@@ -149,6 +149,14 @@ h2{
     font-size: 20px;
     color: #A9A9A9;
     }
+    
+h6{ top: 80px;
+    position: absolute;
+    color: gray;
+    left: 130px;
+    font-family: Calibri;
+    }
+
 .btn {
   background-color: #A9A9A9; 
   border: 2px solid white; 
