@@ -8,7 +8,7 @@ body{
 
 .header{
     background-image: url("cover.jpg");
-    border: 2px solid  #FFEBCD;
+    border: 0px solid  #FFEBCD;
     top: 0px;
     left: 350px;
     width: 792px;
@@ -19,11 +19,11 @@ body{
 .boxdrop{
     background-image: url("whitebrick.jpg");
     background-size: cover; 
-    border: 2px solid  #FFEBCD;
+    border: 0px solid  #FFEBCD;
     top: 100px;
     left: 350px;
     width: 792px;
-    height: 930px;
+    height: 910px;
     position: absolute;
     border-radius: 1px;
 }
@@ -45,7 +45,7 @@ body{
     top: 235px;
     left: 10px;
     width: 330px;
-    height: 800px;
+    height: 775px;
     position: absolute;
     border-radius: 1px;
     opacity: 0.6;
@@ -57,7 +57,7 @@ body{
     top: 5px;
     left: 1160px;
     width: 360px;
-    height: 1030px;
+    height: 1005px;
     position: absolute;
     border-radius: 1px;
     opacity: 0.6;
@@ -259,9 +259,6 @@ body{
     text-indent: 20px;
 
 }
-
-
-
 
 img{
     border: 0px solid  #FFEBCD;
@@ -468,7 +465,7 @@ h6{ top: 80px;
   cursor: pointer; 
   left: 950px;
   top: 190px;
-  width: 196px;
+  width: 193px;
 }
 
 

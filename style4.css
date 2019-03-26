@@ -1,12 +1,14 @@
 html, body{
 }
+
 body{
     background-image: url("11.jpg");
-    background-size: cover; 
-}
+background-size:cover;}
+
+
 .header{
     background-image: url("cover.jpg");
-    border: 2px solid  #FFEBCD;
+    border: 0px solid  #FFEBCD;
     top: 0px;
     left: 350px;
     width: 792px;
@@ -16,7 +18,7 @@ body{
 }
 .boxdrop{
     background-color: white;
-    border: 2px solid  #FFEBCD;
+    border: 0px solid  #FFEBCD;
     top: 100px;
     left: 350px;
     width: 792px;
@@ -25,60 +27,7 @@ body{
     border-radius: 1px;
 }
 
-.info{
-    background-image: url("info.png");
-    border: 0px solid  #FFEBCD;
-    top: 300px;
-    left: 30px;
-    width: 280px;
-    height: 171px;
-    position: absolute;
-    border-radius: 1px;
-    z-index: +1;
-}
-.leftbox{
-    background-color: white;
-    border: 0px solid  #FFEBCD;
-    top: 5px;
-    left: 10px;
-    width: 330px;
-    height: 235px;
-    position: absolute;
-    border-radius: 1px;
-}
-.lefttrans{
-    background-color: white;
-    border: 0px solid  #FFEBCD;
-    top: 235px;
-    left: 10px;
-    width: 330px;
-    height: 700px;
-    position: absolute;
-    border-radius: 1px;
-    opacity: 0.6;
-}
-.righttrans{
-    background-color: white;
-    border: 0px solid  #FFEBCD;
-    top: 5px;
-    left: 1160px;
-    width: 360px;
-    height: 930px;
-    position: absolute;
-    border-radius: 1px;
-    opacity: 0.6;
-}
 
-
-img{
-    border: 0px solid  #FFEBCD;
-    top: 20px;
-    left: 25px;
-    width: 100px;
-    height: 100px;
-    position: absolute;
-    border-radius: 1px;
-}
 .text{
     width: 300px;
     padding: 30px;
@@ -98,21 +47,75 @@ img{
 
 .name{top: 420px;
     position: absolute;
-    left: 430px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 500;
+    left: 380px;
     font-size: 20px}
-.email{top: 420px;
+.email{top: 450px;
     position: absolute;
-    left: 750px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 500;
+    left: 380px;
     font-size: 20px}
-.textbox{top: 460px;
+.textbox{top: 425px;
     position: absolute;
-    left: 430px;
+    left: 590px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 500;
     font-size: 20px;
     }
-.sub{top: 680px;
+.textbox2{top: 490px;
     position: absolute;
-    left: 980px;
-    font-size: 20px}
+    left: 380px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    }
+
+.sub{top: 600px;
+    position: absolute;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 500;
+    left: 1065px;
+    font-size: 20px
+    height: 120px;
+    width: 350px;
+    color: gray;}
+
+.fb{
+    background-image:url("fb.png");
+    background-size: cover;
+    background-position: center;
+    top: 720px;
+    left: 610px;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+}
+
+.ig{
+    background-image:url("ig.png");
+    background-size: cover;
+    background-position: center;
+    top: 720px;
+    left: 690px;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+}
+
+
+
+.tw{
+    background-image:url("tw.png");
+    background-size: cover;
+    background-position: center;
+    top: 723px;
+    left: 775px;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+}
 
 
 p{
@@ -125,96 +128,17 @@ p{
     }
 h3{
     text-align: center;
-    top: 260px;
+    top: 220px;
     position: absolute;
-    left: 620px;
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 35px;
+    left: 480px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 75px;
     }
-h1{
-    text-align: center;
-    top: 30px;
-    position: absolute;
-    left: 130px;
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: 500;
-    font-size: 45px;
-    }
-h2{
-    text-align: center;
-    top: 100px;
-    position: absolute;
-    left: 25px;
-    font-family: Arial;
-    font-size: 20px;
-    color: #A9A9A9;
-    }
-    
-h6{ top: 80px;
-    position: absolute;
-    color: gray;
-    left: 130px;
-    font-family: Calibri;
-    }
+
 
 .btn {
   background-color: #A9A9A9; 
   border: 2px solid white; 
- font-family: 'Caveat Brush', cursive;
-  font-weight: 500;
-  color: white; 
-  padding: 12px 16px; 
-  position: absolute;
-  font-size: 18px; 
-  cursor: pointer; 
-  left: 350px;
-  top: 190px;
-   width: 212px;
-}
-.btn2 {
-  background-color:#808080; 
-  border: 2px solid white; 
-font-family: 'Caveat Brush', cursive;
-  font-weight: 500;
-  color: white; 
-  padding: 12px 16px; 
-  position: absolute;
-  font-size: 18px; 
-  cursor: pointer; 
-  left: 560px;
-  top: 190px;
-  width: 198px;
-}
-.btn3 {
-  background-color:#585858; 
-  border: 2px solid white; 
- font-family: 'Caveat Brush', cursive;
-  font-weight: 500;
-  color: white; 
-  padding: 12px 16px; 
-  position: absolute;
-  font-size: 18px; 
-  cursor: pointer; 
-  left: 755px;
-  top: 190px;
-  width: 198px;
-}
-.btn4 {
-  background-color:#383838; 
-  border: 2px solid white; 
-  font-family: 'Caveat Brush', cursive;
-  font-weight: 500;
-  color: white; 
-  padding: 12px 16px; 
-  position: absolute;
-  font-size: 18px; 
-  cursor: pointer; 
-  left: 950px;
-  top: 190px;
-  width: 196px;
-}.btn {
-  background-color: #A9A9A9; 
-  border: 2px solid white; 
   font-family: 'Dosis', sans-serif;
   font-weight: 500;
   color: white; 
@@ -269,7 +193,7 @@ font-family: 'Caveat Brush', cursive;
   cursor: pointer; 
   left: 950px;
   top: 190px;
-  width: 196px;
+  width: 193px;
 }
 .btn:hover{
     background-color: #FF9933;
@@ -299,3 +223,16 @@ font-family: 'Caveat Brush', cursive;
     -webkit-transition: all 0.3s ease-out;
         transition: all 0.3s ease-out;
 }
+
+    .fb:hover{
+    cursor: pointer;
+    color: yellow;}
+
+    .ig:hover{
+    cursor: pointer;
+    color: yellow;}
+
+    .tw:hover{
+    cursor: pointer;
+    color: yellow;}
+
