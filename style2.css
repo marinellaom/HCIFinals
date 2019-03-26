@@ -65,7 +65,7 @@ body{
 .whatsbest{
     background-color: white;
     border: 0px solid  #FFEBCD;
-    top: 275px;
+    top: 260px;
     left: 25px;
     width: 300px;
     height: 350px;
@@ -76,8 +76,8 @@ body{
 
 .reco{
     font-family: 'Dosis', sans-serif;
-    font-size: 20px;
-    top: 300px;
+    font-size: 25px;
+    top: 290px;
     left: 40px;
     position: absolute;
     font-weight: bold;
@@ -300,6 +300,89 @@ h2{
     font-size: 20px;
     color: #A9A9A9;
     }
+
+.yt{
+    background-image:url("yt.png");
+    background-size: cover;
+    background-position: center;
+    top: 40px;
+    left: 1300px;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+}
+
+.tipboxbody{
+    background-color: white;
+    top: 80px;
+    left: 1175px;
+    width: 330px;
+    height: 580px;
+    position: absolute;
+    border-radius: 5px;
+    opacity: ;
+}
+
+.yttext{
+    font-family: 'Dosis', sans-serif;
+    font-size: 18px;
+    top: 140px;
+    left: 1200px;
+    width: 280px;
+    position: absolute;
+    font-weight: bold;
+    text-align: center;
+}
+
+.ytacc1{
+    background-image:url("acc/yt1.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    top: 200px;
+    left: 1200px;
+    width: 280px;
+    height: 100px;
+    position: absolute;
+}
+
+.ytacc1:hover{
+  cursor: pointer;
+}
+
+.ytacc2{
+    background-image:url("acc/yt2.jpg");
+    background-size: cover;
+    background-position: center;
+    top: 360px;
+    left: 1200px;
+    width: 280px;
+    height: 100px;
+    position: absolute;
+    border-radius: 5px;
+}
+
+.ytacc2:hover{
+  cursor: pointer;
+}
+
+
+.ytacc3{
+    background-image:url("acc/yt3.jpg");
+    background-size: cover;
+     background-position: center;
+    top: 520px;
+    left: 1200px;
+    width: 280px;
+    height: 100px;
+    position: absolute;
+    border-radius: 5px;
+}
+
+.ytacc3:hover{
+  cursor: pointer;
+}
+
 
 .btn {
   background-color: #A9A9A9; 
